@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="cvstyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="imgbx">
+                <div class="box">
+                   <img src="2.jpg" alt="">
+                </div>
+            </div>
+            <div class="profiletext">
+                <h3>LAIBA<br> ZAFAR<br><span>WEB DEVELOPER</span></h3>
+            </div>
+        </div>  
+        <div class="contentbox">
+            <div class="leftside">
+                <hr class="vl">
+          <h3>Contact Information</h3>
+            <ul>
+                <li>
+                    <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                    <span class="text">03076187195</span> 
+                </li>
+                <li>
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <span class="text">laibazafar131@gmail.com</span> 
+                </li>
+                <li>
+                    <span class="icon"><ion-icon name="location-outline"></ion-icon></span>
+                    <span class="text">House#43A,Street#19A kot khawaja saeed lahore</span> 
+                </li>
+            </ul>
+            <h3>Language</h3>
+            <ul class="language">
+                <li>
+                    <span class="text">English</span>
+                    <span class="precent"><div style="widht:90%;"></div>
+                    </span> 
+                </li>
+                <li>
+                    <span class="text">Urdu</span>
+                    <span class="precent"><div style="widht:90%;"></div>
+                    </span> 
+                </li>
+                <li>
+                    <span class="text">Punjabi</span>
+                    <span class="precent"><div style="widht:90%;"></div>
+                    </span> 
+                </li>
+                
+            </ul>
+            <h3>Interest</h3>
+            
+            <ul class="interest">
+            <li><sapn class="icon"><ion-icon name="fast-food-outline"></ion-icon></sapn>Cooking</li>
+            <li><sapn class="icon"><ion-icon name="book-outline"></ion-icon></sapn>Reading</li>
+            <li><sapn class="icon"><ion-icon name="leaf-outline"></ion-icon></sapn>Gardening</li>
+        </ul>
+            </div>
+            <div class="rightbox">
+                <div class="about">
+                    <h3>Profile</h3>
+                    <ul>
+                        <li>Seeking to further IT career by growing with the iTitans as the SOFTWARE ENGINEER.Seeking to use proven skills in HTML, CSS, BOOTSTRAP, JavaScript, PHPand C++ to meet different organization.</li>
+                        </li>                   
+                     </ul>
+                </div>
+                 <div class="projects">
+                     <h3>Projects</h3>
+                    
+                    <dl>
+                        <li>Shopping store website using html, CSS </li>
+                        <li>Wordpress website of Thrive-x global </li>
+                        
+                  </dl>
+                 </div>
+                  <div class="skills">
+                     <h3>Skills</h3>
+                    
+                    <dl>
+                        <li>Creativity</li>
+                        <li>Problem-solving </li>
+                        <li>Teamwork </li>
+                        <li>HTML </li>
+                        <li>CSS </li>
+                        <li>Wordpress </li>
+                        <li>Elementor </li>
+                  </dl>
+                 </div>
+            </div>  
+          
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 50px 75px black;
+    border-left: 50px solid #fff;
+    border-right: 50px solid #fff;
+}
+.container .top{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding:  40px;
+    padding-bottom: 0;
+}
+.container .top .imgbx{
+    position: relative;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.container .top .imgbx .box{
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.container .top .imgbx .box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .top .profiletext{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .top .profiletext h3{
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: #333;
+}
+.container .top .profiletext h3 span{
+    position:relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+}
+.container .contentbox{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+.container .contentbox h3{
+    border-left: 4px solid palevioletred;
+    padding-left: 10px;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+.container .contentbox ul{
+    position: relative;
+    margin: 10px 0;
+}
+.container .contentbox ul li{
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1.2em;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+}
+.container .contentbox ul li ion-icon{
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: rgb(60, 60, 68);
+
+}
+.language li{
+    flex-direction: column;
+}
+.language li span{
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;    
+}
+.language .percent{
+    position: relative;
+    width: 100%;
+    background: #e3e3ee;
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;   
+}
+.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #3590d2;
+}
+.container .contentbox ul .interest{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container .contentbox ul .interest li{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+.container .contentbox ul .interest li .icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background:#3590d2;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+}
+.container .contentbox ul.interest li .icon ion-icon{
+ font-size: 1.2em;
+    margin-right: 10px;
+    color: rgb(41, 41, 51);
+}
+.rightbox{
+    padding-left: 40px;
+}
+.about{
+      position: relative;
+    margin: 10px 0;
+}
+.about ul{
+     position:relative;
+    top: -10px;
+    color: #333;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+.projects {
+    text-align: justify;
+    color: #333;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+.skills{
+    row-gap: 1rem;
+    margin-top: 40px;
+}
+</style>
+</html>
